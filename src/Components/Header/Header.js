@@ -1,20 +1,17 @@
 import React from 'react';
-import './Header.css'
+import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div>
-            <nav className='header'>
-                <div>
-                    <h1>PC-POINT-SHOP</h1>
-                </div>
-                <div>
-                    <a href="/Shop">Home</a>
-                    <a href="/About">Review</a>
-                    <a href="/Orders">Dashboard</a>
-                    <a href="/Review">Blog</a>
-                </div>
-            </nav>
+        <div className='sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between mx-auto md:mx-auto'>
+            <div className='hidden md:block'><Link to='/' className='font-sans font=bold text-xl text-gray-600'>Hosting Review Center</Link></div>
+            <div className='flex gap-4 text-xl'>
+                <CustomLink to='/'>Home</CustomLink>
+                <CustomLink to='/review'>Review</CustomLink>
+                <CustomLink to='/dashboard'>DashBoard</CustomLink>
+                <CustomLink to='/blog'>BLog</CustomLink>
+            </div>
         </div>
     );
 };
