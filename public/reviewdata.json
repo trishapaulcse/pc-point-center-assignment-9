@@ -2,37 +2,37 @@
     {
         "id": "1",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 5,
         "review": 241
     },
     {
         "id": "2",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 4,
         "review": 241
     },
     {
         "id": "3",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 5,
         "review": 241
     },
     {
         "id": "4",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 3,
         "review": 241
     },
     {
         "id": "5",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 4,
         "review": 241
     },
     {
         "id": "6",
         "name": "Mar",
-        "rating": 100000,
+        "rating": 5,
         "review": 241
     }
 ]
