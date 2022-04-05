@@ -110,31 +110,7 @@ const Dashboard = () => {
                     </BarChart>
                     <h3 className="text-2xl md:text-3xl font-bold">BarChart</h3>
                 </div>
-                <div>
 
-                    <AreaChart
-                        width={400}
-                        height={400}
-                        data={data}
-                        margin={{
-                            top: 10,
-                            right: 30,
-                            left: 0,
-                            bottom: 0,
-                        }}
-                    >
-                        <XAxis dataKey="name" />
-                        <YAxis />
-                        <Tooltip />
-                        <Area type="monotone" dataKey={"investment"} stroke="#800000" fill="#FFA500" />
-                        <Area type="monotone" dataKey={"sell"} stroke="#008000" fill="#008000" />
-                        <Area type="monotone" dataKey={"revenue"} stroke="#00FF00" fill="#00FF00" />
-                        <XAxis ></XAxis>
-                        <Tooltip />
-                        <YAxis dataKey="month"></YAxis>
-                    </AreaChart>
-                    <h2 className="text-2xl md:text-3xl font-bold">Area chart</h2>
-                </div>
             </div>
         </div>
     );
