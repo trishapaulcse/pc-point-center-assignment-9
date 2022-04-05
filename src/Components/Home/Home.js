@@ -11,7 +11,7 @@ const Home = () => {
             <div class="grid grid-cols-1 md:grid-cols-2 m-15 md:m-10">
                 <div className='m-5 md:m-10'>
                     <h1 className=' font-mono tracking-normal md:tracking-normal text-3xl md:text-4xl font-bold text-sky-400'>
-                        Welcome To our Review site
+                        Welcome To our site
                     </h1>
                     <p className='font-bold'>
                         You scrolled this far. That's impressive! The best way to pick a web hosting provider is to try the services. All our Customer come with a 30-day money back guarantee. If you do not like what you get - we will refund your purchase. No questions asked
@@ -22,7 +22,7 @@ const Home = () => {
 
                 </div>
                 <div>
-                    <img src="image/banner.jpg" alt="hosting review website logo" srcset="" />
+                    <img src="images/pc.jpg" alt="" srcset="" />
                 </div>
             </div>
             <div>
