@@ -1,8 +1,7 @@
 import React from "react";
 import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 import { PieChart, Pie, } from "recharts";
-import { AreaChart, Area } from 'recharts';
-import { BarChart, Bar } from 'recharts';
+
 
 const Dashboard = () => {
     const data =
@@ -97,21 +96,7 @@ const Dashboard = () => {
 
 
             </div>
-            <div class="columns-1 md:columns-2">
-                <div>
 
-                    <BarChart width={300} height={300} data={data}>
-                        <Bar dataKey={"investment"} fill="#008000" />
-                        <Bar dataKey={"revenue"} fill="#FF00FF" />
-                        <Bar dataKey={"sell"} fill="#000000" />
-                        <XAxis dataKey="month"></XAxis>
-                        <Tooltip />
-                        <YAxis></YAxis>
-                    </BarChart>
-                    <h3 className="text-2xl md:text-3xl font-bold">BarChart</h3>
-                </div>
-
-            </div>
         </div>
     );
 };
