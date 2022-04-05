@@ -1,38 +1,38 @@
 [
     {
         "id": "1",
-        "name": "Mar",
+        "name": "Marry",
         "rating": 5,
-        "review": 241
+        "review": "very good customer care"
     },
     {
         "id": "2",
-        "name": "Mar",
+        "name": "Hex",
         "rating": 4,
-        "review": 241
+        "review": "very good customer care & excellent support"
     },
     {
         "id": "3",
-        "name": "Mar",
+        "name": "Tracy",
         "rating": 5,
-        "review": 241
+        "review": "very good behaviour"
     },
     {
         "id": "4",
-        "name": "Mar",
+        "name": "Zac",
         "rating": 3,
-        "review": 241
+        "review": "very well mannered"
     },
     {
         "id": "5",
-        "name": "Mar",
+        "name": "Rob",
         "rating": 4,
-        "review": 241
+        "review": "well trained staff & greate support"
     },
     {
         "id": "6",
-        "name": "Mar",
+        "name": "William",
         "rating": 5,
-        "review": 241
+        "review": "Nice follow up"
     }
 ]

@@ -1,6 +1,6 @@
 import React from "react";
 import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
-import { PieChart, Pie, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, } from "recharts";
 import { AreaChart, Area } from 'recharts';
 import { BarChart, Bar } from 'recharts';
 

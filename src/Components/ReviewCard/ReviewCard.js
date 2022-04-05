@@ -1,7 +1,7 @@
 import React from "react";
 
 const ReviewCard = ({ review }) => {
-    console.log(review);
+
     return (
         <div className="shadow-lg rounded-2xl w-[350px] bg-white p-4 mb-4">
             <div className="flex gap-4 justify-between items-center">
